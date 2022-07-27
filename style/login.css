@@ -1,0 +1,174 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Raleway', Courier, monospace;
+}
+
+.container_header header{
+    display: flex;
+
+}
+
+.box_header_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 70%;
+    margin-left: 10%;
+   
+}
+
+.box_search{
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_search form{
+    width: 100%;
+}
+.box_search form input {
+border: none;
+background-color: transparent;
+outline: none;
+width: 70%;
+}
+
+.action{padding-left: 12px;}
+
+.box_search form button{
+    border: none;
+    background-color: transparent;
+    width: 25%;
+}
+
+section{
+    background-color:  #E5E5E5;
+}
+.container_login{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box_login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+.box_login form input{
+    margin-top: 20px;
+    width: 423px;
+    height: 63px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #f5f5f5;
+    box-shadow: 2px 7px 3px 0px rgba(0,0,0,0.09);
+}
+.box_login form button{
+    margin-top: 20px;
+    width: 423px;
+    height: 63px;
+    background-color: #2A7AE4;
+    border: none;
+    color: #E5E5E5;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color:  #EAF2FD;
+    padding-top: 3%;
+    
+}
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    
+}
+
+.box_informacion{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    flex-wrap: wrap;
+    
+}
+.box_informacion img{
+    width: 150px;
+    height: 50px;
+}
+
+.box_formulario_footer {
+width: 500px;
+
+}
+.box_formulario_footer form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.box_formulario_footer input{
+    width: 400px;
+    height: 46px;
+    outline: none;
+    border: none;
+}
+.box_formulario_footer input:hover{
+    border: 1px solid #2A7AE4;
+}
+.box_formulario_footer input::placeholder{
+    position: relative;
+    bottom: 10px;
+}
+
+textarea{
+    display: block;
+    width: 400px;
+    height: 66px;
+    margin-top: 20px;
+    outline: none;
+    resize: none;
+    border: none;
+}
+
+textarea:hover{
+    border: 1px solid #2A7AE4; 
+}
+
+.btnenviar{
+    display: block;
+    margin-top: 20px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #2A7AE4;  
+ }
+
+ .autor_footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ .autor p{
+    text-align: center;
+    line-height: 5%;
+ }
